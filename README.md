@@ -13,6 +13,25 @@ Outlier Treatment Methods:
 * Similarly, extrapolate curve between P5 and P1
 
 3) Sigma Approach 
-* Identigy outliers by capturing all the values falling outside u+-xsigma
+* Identify outliers by capturing all the values falling outside u+-xsigma
 * You can use any multiplier as x, as per your business requirement.
 
+
+
+Missing Value Imputation: 
+(Data can have missing values for a number of reasons such as observations that were not recorded and data corruption) 
+1) Impute with Zero / Remove rows with missing data from your dataset :
+* Impute missing values with zero. 
+* When we have a large dataset and only few values missing, then we can delete those values and still have substantial number of values to train and test the model. But if the number of missing values is high, then removing observations is not advisable. 
+
+2) Impute values with mean/median values in your dataset.  
+* In cases when there are large number of missing values, we need to replace values with some values which should not impact the model much. Such neutral values are values closer to the center of the variable i.e choose mean or median to replace the missing values.
+* For numerical variables, impute missing values with Mean or Median
+* For categorical variables, impute missing values with Mode. 
+
+3) Segment based imputation
+* Identify relevant segments
+* Calculate mean/median/mode of segments
+* Impute the missing value according to the segments
+* For example, we can say rainfall hardly varies for cities in particular state
+* In this case, we can impute missing rainfall value of a city with the average of that state
