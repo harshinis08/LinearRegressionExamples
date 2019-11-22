@@ -4,7 +4,7 @@ In this simple Linear Regression model, we use the data set with outliers and un
 
 Outlier Treatment Methods:
 1) Capping and Flooring :
-* Impute all the values above 3* P99 and below 0.3* P1
+* Impute all the values above 3* P99 (99th percentile) and below 0.3* P1 (1 percentile)
 * Impute with values 3* P99 and 0.3* P1
 * You can use any multiplier instead of 3, as per your business
 
@@ -35,3 +35,15 @@ Missing Value Imputation:
 * Impute the missing value according to the segments
 * For example, we can say rainfall hardly varies for cities in particular state
 * In this case, we can impute missing rainfall value of a city with the average of that state
+
+
+
+Seasonality :
+Seasonality is the presence of variations that occur at specific regular intervals less than a year, such as weekly, monthly, or quarterly.
+Reasons: Weather, vacation and holidays
+
+In order to normalize them into the same scale we can follow
+* Calculate multiplication factor
+ m =  myu (year) / myu (month)
+ * Multiply each observation with its multiplication factor
+ 
