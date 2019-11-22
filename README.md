@@ -61,3 +61,20 @@ It is the simultaneous analysis of two variables (attributes). It explores the c
 * Correlation is used to drop non usable variables.
 
 
+
+Correlation:
+Correlation is a statistical measure that indicates the extent to which two or more variables fluctuate together. A positive correlation indicates the extent to which those variables increase or decrease in parallel; a negative correlation indicates the extent to which one variable increases as the other decreases. 
+
+* Correlation coefficients is a way to put a value to the relationship
+* Correlation coefficients have a value of between -1 and 1.
+* '0' means there is no relationship between the variables at all
+* While -1 and 1 means that there is a perfect negative or positive correlation
+
+Correlation Matrix:
+Is a table showing the correlation coefficients between variables. Each cell in the table shows the correlation between two variables. A correlation matrix is used as a way to summarize data, as an input into a more advanced analysis and as a diagnostic for advanced analysis. 
+Application: To identify collinearity in the data. To summarize a large amount of data where the goal is to see patterns. 
+Note: Need to avoid multi-collinearity. 
+
+Causation: The relation between something that happens and the thing that causes it. The first thing that happens is the cause and the second thing is the effect. 
+
+
