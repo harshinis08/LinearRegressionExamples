@@ -1,4 +1,4 @@
-# LinearRegressionExamples
+# Preprocessing Data: 
 
 In this simple Linear Regression model, we use the data set with outliers and understand Outlier Treatment
 
@@ -47,3 +47,17 @@ In order to normalize them into the same scale we can follow
  m =  myu (year) / myu (month)
  * Multiply each observation with its multiplication factor
  
+
+
+Bivariate Analysis:
+It is the simultaneous analysis of two variables (attributes). It explores the concept of relationship between two variables, whether there exists an association and the strength of this association, or whether there are differences between two variables and the significance of these differences.
+
+1) Scatterplot:
+* Scatter indicates the type(linear or non-linear) and strength of the relationship between two variables
+
+2) Correlation: 
+* Linear correlation quantifies the strength of a linear relationship between two numerical variables
+* When there is no correlation between two variables, there is no tendency for the values of one quantity to increase or decrease with the values of the second quantity.
+* Correlation is used to drop non usable variables.
+
+
