@@ -1,1 +1,7 @@
 Numpy has a built in Least Square Method in its linear algebra library. 
+
+X value - Numpy expects a two-dimensional array, the first dimension is the different example values and the second dimension
+is the attribute number.
+In this case, we have our value as the mean number of rooms per house and this is a single attribute so the second dimension 
+of the array is just 1. So, we'll need to create a (506,1) shape array. Using numpy's built-in vertical stack tool.
+
